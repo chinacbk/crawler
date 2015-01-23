@@ -6,6 +6,7 @@ public class Crawler {
 	//使用种子 url 初始化 URL 队列
 	private void initCrawlerWithSeeds(String[] seeds)
 	{
+		system.out.println("test");
 		for(int i=0;i<seeds.length;i++)
 			LinkDb.addUnvisitedUrl(seeds[i]);
 	}
