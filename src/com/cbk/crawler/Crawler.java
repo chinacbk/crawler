@@ -1,8 +1,9 @@
-package com.cbk.crawler;
+﻿package com.cbk.crawler;
 
 import java.util.Set;
-public class Crawler {
-	/* 使用种子 url 初始化 URL 队列*/
+public class Crawler { 
+	
+	//使用种子 url 初始化 URL 队列
 	private void initCrawlerWithSeeds(String[] seeds)
 	{
 		for(int i=0;i<seeds.length;i++)
